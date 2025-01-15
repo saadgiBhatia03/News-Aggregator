@@ -1,0 +1,70 @@
+body {
+    padding-top: 64px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 52px;
+        /* Adjust for smaller navbar height */
+    }
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05), 0 6px 20px rgba(255, 255, 255, 0.05);
+}
+
+.card-img-top {
+    width: 100%;
+    /* Ensures the image fills the card width */
+    height: 200px;
+    /* Fixed height for all images */
+    object-fit: cover;
+    /* Crops and scales images */
+}
+
+.newsItemBody {
+    height: 375px;
+    /* Ensures uniform card height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    /* Prevents content overflow */
+}
+
+.card-title {
+    font-size: 1rem;
+    /* Adjust font size if needed */
+    height: 2.5em;
+    /* Fixes height for title (two lines max) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    /* Adjust description font size */
+    height: 3.5em;
+    /* Fixes height for description (three lines max) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    align-self: center;
+    /* Ensures the button is centered in its space */
+    margin-top: auto;
+    /* Pushes the button to the bottom of the card body */
+}
+
+/* Normal card styling */
+.card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.card:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    /* Optional: slightly enlarge the card */
+}
