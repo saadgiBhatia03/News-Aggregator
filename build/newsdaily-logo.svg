@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 200 50"
+  fill="none"
+>
+  <!-- Icon -->
+  <circle cx="25" cy="25" r="20" fill="#17C3B2" />
+  <rect x="15" y="18" width="20" height="14" fill="#2b3035" />
+  <rect x="16" y="19" width="18" height="12" fill="#ffffff" />
+  <!-- Text -->
+  <text
+    x="60"
+    y="32"
+    font-family="Roboto, sans-serif"
+    font-size="24"
+    fill="#D1D5DB"
+  >
+    NewsDaily
+  </text>
+</svg>
